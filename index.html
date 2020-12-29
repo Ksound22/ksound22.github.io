@@ -1,282 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Kolade Chris | Web Development | WordPress Design | Content Writing</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<!--offline Bootstrap, jquery and Fontawesome links-->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<script src="js/bootstrap.min.js"></script>
-	<script src="jquery-3.5.1.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
-	<link rel="icon" sizes="16x16" type="image/png" href="favicon_io/favicon-16x16.png">
-	<link rel="apple-touch-icon" sizes="16x16" type="image/png" href="favicon_io/favicon-16x16.png">
-	<!--Online CDNs-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  	<script src="https://use.fontawesome.com/5a887eb43d.js"></script>
-  	<script src="smooth-scroll-master/dist/smooth-scroll.polyfills.min.js"></script>  
-  	<style>   
-  		.footer {
-			background: #313533 !important;
-		}
-
-		.footer-text {
-			height: 120px
-		}
-
-		.footer-real-text {
-			margin: 40px;
-		} 
-
-		.services, .testimonials, .projects {    
-			margin-top: 20px;
-		}
-
-		.first-divider {
-			width: 50%;   
-			border: 2px dotted lightgreen;
-		}
-
-		.second-divider {
-			border: 2px solid green;  
-		}
-
-		.smallbtn {
-			margin-top: 20px
-		}
-
-		.smallbtn{
-			border: 1px solid black;
-		}
-
-		.probtn {
-			margin-top: 20px
-		}
-
-		.mybtn {
-			border: 2px solid green;
-			border-radius: 10px
-		}
-
-		.mybtn:hover {
-			background-color: #030a00;
-			border: 2px solid green; 
-			transition: all 1s;
-		}
-  	</style>
+    <title>Kolade Chris Ksound | Frontend Development | React Development | WordPress Design</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="icon" sizes="16x16" type="image/png" href="favicon_io/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="16x16" type="image/png" href="favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link id="theme-style" type="text/css" rel="stylesheet" href="">
+    <script src="smooth-scroll-master/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
+
 <body>
-	<div class="container-fluid" id="home">
-		<nav class="navbar w-100 navbar-expand-sm bg-dark navbar-dark fixed-top">
-  			<a class="navbar-brand" href="#home">Ksound</a>	
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    			<span class="navbar-toggler-icon"></span>
-  			</button>
-  			<div class="collapse navbar-collapse" id="collapsibleNavbar">
-    			<ul class="navbar-nav ml-auto p-3">  
-      				<li class="nav-item">    
-        				<a class="nav-link mx-3" href="#projects">Projects</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link mx-3" href="#services">Services</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link mx-3" href="#testimonials">Testimonial</a>
-      				</li> 
-      				<li class="nav-item">
-        				<a class="nav-link mx-3" href="#cta">Contact</a>  
-      				</li>    
-    			</ul>
-  			</div>  
-		</nav>
-	</div>
-	<section id="intro about">
-	<div class="container mt-3">
-		<div class="row">
-			<!--<div class="col-sm-2"></div>-->
-			<div class="col-sm-6"> <br> <br> <br> <br> <br>
-				<h1 class="text-success">Hi, I'm Kolade Chris Ksound</h1>
-				<h4 class="text-success">Web Developer and Content Writer from Southern Nigeria. <br>I build websites and write contents to help individuals and businesses do better.</h4> 
-				<a href="#projects" class="btn btn-success mybtn probtn">My Projects</a>  
-			</div>
-			<div class="col-sm-1"></div>
-			<div class="col-sm-4"> <br> <br> <br> <br>
-				<img src="resizedagain/wakanda2.jpg" class="rounded mx-auto d-block" alt="Kolade Chris (Ksound)">
-			</div>
-			<!--<div class="col-sm-1"></div> -->  
-		</div>
-	</div>
-	</section>  
-	<section id="projects" class="projects">  
-	<div class="container-fluid mb-3 mt-3">
-		<hr class="first-divider"> 
-		<div class="row">
-			<div class="col-sm">
-				<h2 class="text-success text-center">PROJECTS</h2>  
-			</div>
-		</div>
-		<hr class="second-divider">
-		<div class="row">
-			<div class="col-sm-2"></div>
-			<div class="col-sm-4">
-				<div class="card">
-					<img src="resizedagain/greenyearth2.jpg" class="card-img-top" alt="GreenyEarthWebsite">
-					<div class="card-body">
-						<h3 class="card-title text-success">GreenyEarth Website</h3>
-						<p class="card-text text-success">My passion project dedicated to nature and environmentalism. Built for the purpose of educating people on nature and environment.</p>
-						<a href="https://greenyearth.com" target="_blank" class="btn btn-success d-flex justify-content-center align-content-center smallbtn">Visit Website</a>
-					</div>
-				</div> 
-			</div>
-			<div class="col-sm-4">
-				<div class="card">
-					<img src="resizedagain/greenyearthblog2.png" class="card-img-top" alt="GreenyEarthBlog">
-					<div class="card-body">
-						<h3 class="card-title text-success">GreenyEarth Blog</h3>
-						<p class="card-text text-success">The blog attached to my passion project, where i post articles including editorials on nature, environment, wild life and environmental activism.</p>  
-						<a href="https://www.greenyuniverse.com.ng/" target="_blank" class="btn btn-success d-flex justify-content-center align-content-center smallbtn">Read Blog</a>
-					</div>
-				</div> 
-			</div>
-			<div class="col-sm-2"></div>
-		</div>
-		<div class="row mt-3 mb-3">
-			<div class="col-sm-4">
-				<div class="card">
-					<img src="resizedagain/overall2.png" class="card-img-top" alt="OverallGroupWebsite">
-					<div class="card-body">
-						<h3 class="card-title text-success">Overall Group Website</h3>
-						<p class="card-text text-success">My dream company website. The recipe of what i want in the not-too-long future, but with better integrations and features.</p>
-						<a href="https://overallgroup.tech/" target="_blank" class="btn btn-success d-flex justify-content-center align-content-center smallbtn">Vist Website</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="card">
-					<img src="resizedagain/kaytolee2.png" class="card-img-top" alt="KaytoleeDataWebsite">
-					<div class="card-body">
-						<h3 class="card-title text-success">Kaytolee Data Services</h3>
-						<p class="card-text text-success">An Internet Data Reselling Website where Internet subscribers could buy data.</p>
-						<a href="https://www.kaytolee.com.ng/" target="_blank" class="btn btn-success d-flex justify-content-center align-content-center smallbtn">Vist Website</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="card">
-					<img src="resizedagain/thardove2.png" class="card-img-top" alt="TharDoveWebsite">
-					<div class="card-body">
-						<h3 class="card-title text-success">TharDove Investments</h3>
-						<p class="card-text text-success">A website showcasing the services rendered by TharDove Investments Limited, and details about the company.</p>
-						<a href="https://www.thardove.com.ng/" target="_blank" class="btn btn-success d-flex justify-content-center align-content-center smallbtn">Vist Website</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<hr class="first-divider">
-	</div>
-	</section>  
-	<div class="container-fluid services" id="services">
-		<div class="row">
-			<div class="col-sm">
-				<h2 class="text-success text-center">MY SERVICES</h2> 
-			</div>
-		</div>
-		<hr class="second-divider">
-	</div>
-	<section id="servicees">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="card bg-light">
-					<div class="card-body">
-						<i class="fa fa-desktop fa-5x text-success w-100 text-center"></i>
-						<h4 class="card-title text-success text-center">Frontend Web Development</h4>
-						<h5 class="text-success text-center text-center">Responsive, Fast, User-friendly</h5>
-						<p class="card-text text-success text-center">I build websites for businesses, individuals and organisations with three major aims: make them work accross all devices, fast as possible and accessible for target users.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="card bg-light">
-					<div class="card-body">
-						<i class="fa fa-wordpress fa-5x text-success w-100 text-center"></i>
-						<h4 class="card-title text-success text-center">WordPress Design</h4>
-						<h5 class="text-success text-center text-center">Responsive, Fast, User-friendly</h5>
-						<p class="card-text text-success text-center">I design, redesign and build WordPress websites for businesses, individuals and organisations also with the aim of making them responsive, fast and user-friendly.</p>
-					</div>
-				</div>
-			</div>  
-			<div class="col-sm-4">
-				<div class="card bg-light">
-					<div class="card-body">
-						<i class="fa fa-pencil fa-5x text-success w-100 text-center"></i>
-						<h4 class="card-title text-success text-center">Content Creation and Writing</h4>
-						<h5 class="text-success text-center text-center">Clear, Unambiguous, SEO-friendly</h5>
-						<p class="card-text text-success text-center">I write clear contents for websites and blogs with the ultimate aim of making them rank high in search engines and readability.</p>  
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
-	<section id="testimonials">
-	<div class="container-fluid mb-3 mt-3 testimonials">
-		<hr class="first-divider">
-		<div class="row">
-			<div class="col-sm">
-				<h2 class="text-success text-center">TESTIMONIAL</h2>
-			</div>
-		</div>
-		<hr class="second-divider">
-		<div class="row">
-			<div class="col-sm"></div>
-			<div class="col-sm"> 
-				<img src="resizedagain/kaytolee.jpg" class="rounded-circle mx-auto d-block" alt="Kayode Akintomide">
-				<p class="text-success text-center">People now believe me more and trust in my business since Kolade Chris built me a site. I even now get more orders.</p>
-				<h5 class="text-success text-center">Kayode Akintomide</h5>
-				<p class="text-success text-center">CEO, Kaytolee Data Services</p>
-			</div>
-			<div class="col-sm"></div> 
-		</div>
-	</div>
-	</section>
-	<section id="cta">
-	<div class="container-fluid mt-3 bg-dark">
-		<div class="row cta-row">
-			<div class="col-sm-6 cta"> <br>
-				<h1 class="text-center text-white">Have a Project in Mind?</h1>
-				<h3 class="text-center text-white">Let's Work Together</h3>
-				<a href="mailto:chrisjay967@gmail.com" target="_blank" class="btn btn-success w-100 text-center mybtn">Get In Touch</a>
-			</div>
-			<div class="col-sm-6 text-center cta"> <br>
-				<h3 class="text-white text-center">You can also connect with me:</h3>
-				<span class="fa fa-twitter fa-2x text-white"></span>
-				<a href="https://www.twitter.com/koladechris" target="_blank" class="text-white">On Twitter</a> <br>
-				<span class="fa fa-facebook fa-2x text-white"></span>
-				<a href="https://www.facebook.com/koladechris" target="_blank" class="text-white">On Facebook</a> <br>
-				<span class="fa fa-github fa-2x text-white"></span>
-				<a href="https://github.com/Ksound22" target="_blank" class="text-white">On Github</a>     
-			</div>
-		</div> <br> <br>
-	</div>
-	</section>
-	<section id="footer">
-		<div class="container-fluid bg-dark">
-			<div class="row footer"> 
-				<div class="col-sm text-white text-center footer-text">
-					<p class="text-white text-center footer-real-text"> &copy; 2020 - Kolade Chris. All Rights Reserved. Built With &#128154; by Kolade Chris (Ksound)</p>
-				</div>    
-			</div>
-		</div>
-	</section>
-	<script>
-		var scroll = new SmoothScroll('a[href*="#"]',{
-			speed: 1000,
-			speedAsDuration: true
-		});
-	</script>
-</body>  
-</html> 
+    <button id="ScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <section class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1 style="display: inline;margin-bottom: 0;">Hi, My name is</h1>
+                <h1 style="display: inline; margin-top: 0;font-family: 'Russo One', sans-serif;" id="anim">Kolade Chris
+                    (Ksound)</h1>
+            </div>
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div id="dot-1" class="browser-dot"></div>
+                        <div id="dot-2" class="browser-dot"></div>
+                        <div id="dot-3" class="browser-dot"></div>
+                    </div>
+                    <div id="navigation">
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact-form">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="left-column">
+                    <img id="profile_pic" src="images/1_kay.jpg" alt="Kolade Chris Ksound">
+                    <h5 class="echfive">How do you want it?</h5>
+
+                    <div id="theme-options-wrapper">
+                        <div data-mode="light" class="theme-dot" id="light-mode"></div>
+                        <div data-mode="blue" class="theme-dot" id="blue-mode"></div>
+                        <div data-mode="green" class="theme-dot" id="green-mode"></div>
+                        <div data-mode="purple" class="theme-dot" id="purple-mode"></div>
+                    </div>
+                    <p id="settings-note">Theme settings will be saved for <br> next visit</p>
+                </div>
+                <div class="right-column" id="about">
+                    <div id="preview-shadow">
+                        <h3>Who I am</h3>
+                        <p>I'm a frontend developer utilising React.js to revolutionise the web</p>
+
+                        <!-- <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+
+                            <div id="corner-bl" class="corner"></div>
+                            <div id="corner-br" class="corner"></div>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4 style="margin-top:0;">More about me</h4>
+
+                    <p>I build websites and web applications with React. Some times, i build fullstack Web Applications
+                        with MERN (MongoDB, Express, React and Node) stack. Additionally, I'm a passionate React and
+                        WordPress
+                        fan.</p>
+
+                    <p>I'm available for full term, short term, remote and freelance jobs.</p>
+
+
+                    <hr>
+
+                    <h4>Top Expertise</h4>
+
+                    <p>Frontend Developer with primary focus on React and frontend technologies: <a target="_blank"
+                            href="images/kolade_chris_kayode-converted.pdf" target="_blank">Resume</a></p>
+
+                    <div id="skills">
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>HTML/CSS</li>
+                            <li>jQuery</li>
+                            <li>Express JS</li>
+                        </ul>
+
+                        <ul>
+                            <li>Node JS</li>
+                            <li>Mongo DB</li>
+                            <li>WordPress</li>
+                            <li>Writing</li>
+                            <li>Bootstrap</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <div class="review-wrapper">
+                <h3>Testimonial</h3>
+                <img class="fleximg" src="images/kaytolee.jpg" alt="">
+                <p class="flexp">People now believe me more and trust in my business since the time Kolade Chris built
+                    me a site</p>
+                <h5 class="flexhead">Kayode Akintomide</h5>
+                <p>CEO, Kaytolee Data Services</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="s1" id="projects">
+        <div class="main-container">
+            <h3>Some of my Recent Projects</h3>
+
+            <div class="post-wrapper">
+
+                <div class="post">
+                    <img class="thumbnail" src="images/expenseTracker.png" alt="">
+                    <div class="post-preview">
+                        <h6 class="post-title">Expense Tracker</h6>
+                        <p class="post-intro">A fullstack Web App for tracking income and expenditure</p>
+                        <a href="https://expense-tracker-kolade.herokuapp.com/">Check It Out</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img class="thumbnail" src="images/netflixClone.png" alt="">
+                    <div class="post-preview">
+                        <h6 class="post-title">Netflix Clone</h6>
+                        <p class="post-intro">Simple clone with trailer pop-up</p>
+                        <a href="https://kolades-netflix-clone.web.app/">Check It Out</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img class="thumbnail" src="images/greenyEarth.png" alt="">
+                    <div class="post-preview">
+                        <h6 class="post-title">Greeny Earth website</h6>
+                        <p class="post-intro">My passion project as a lover of nature</p>
+                        <a href="https://greenyearth.com/">Check It Out</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="s2">
+        <div class="main-container">
+            <a href=""></a>
+            <h3 style="text-align: center;">Have an opportunity for me? Get In Touch</h3>
+
+            <form id="contact-form" class="form">
+                <!-- <a name="contact"></a> -->
+                <div class="alert">Thank you. I will get back to you.</div>
+                <div class="form-control controller">
+                    <label>Name</label>
+                    <input class="input-field" type="text" id="name" placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-control">
+                    <label>Email</label>
+                    <input class="input-field" type="text" id="email" placeholder="Enter Your email" required>
+                </div>
+                <div class="form-control">
+                    <label>Message</label>
+                    <textarea class="input-field" id="message" placeholder="Enter Your Message" required></textarea>
+                </div>
+
+                <input id="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <h5>Connect with me via my social accounts</h5>
+            <div class="soc">
+                <a href="https://www.twitter.com/koladechris" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.github.com/ksound22" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kolade-christopher-kayode-6a0685199/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/koladechris" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class=" s1">
+        <div class="main-container">
+            <p style="text-align: center;">Built with &#x2661; by Kolade Chris (Ksound)</p>
+        </div>
+    </section>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

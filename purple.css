@@ -1,11 +1,15 @@
 :root {
   --mainColor: #46344e;
   --secondaryColor: #382a3f;
-  --borderColor: #1d1520;
+  --borderColor: #888888;
   --mainText: #fff;
   --secondaryText: #eeeeee;
   --themeDotBorder: #fff;
   --previewBg: rgb(29, 21, 32, 0.8);
   --previewShadow: #2b202f;
   --btnColor: #8534a3;
+}
+
+p, li, label, input::placeholder, input, textarea, textarea::placeholder{
+  color:white
 }
